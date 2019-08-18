@@ -1,0 +1,22 @@
+{
+  "name": "endless-dungeon",
+  "version": "0.1.0",
+  "description": "an autoplaying, endless roguelike to be displayed on a Scroll pHAT HD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markusunger/endless-dungeon.git"
+  },
+  "author": "Markus Unger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markusunger/endless-dungeon/issues"
+  },
+  "homepage": "https://github.com/markusunger/endless-dungeon#readme",
+  "dependencies": {
+    "scroll-controller": "git+https://git@github.com/whatsim/scrollcontroller.git"
+  }
+}

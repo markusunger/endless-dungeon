@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/markusunger/endless-dungeon#readme",
   "dependencies": {
-    "scroll-controller": "git+https://git@github.com/whatsim/scrollcontroller.git"
+    "scroll-controller": "git+https://git@github.com/whatsim/scrollcontroller.git",
+    "unicornhat-hd": "0.0.4"
   }
 }

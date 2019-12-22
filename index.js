@@ -1,1 +1,1 @@
-const app = require ('../lib/endless.js');
+const app = require('./lib/endless.js');

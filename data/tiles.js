@@ -36,7 +36,7 @@ module.exports = {
     walkable: true,
     zLevel: 10,
     symbol: 'O',
-    color: [40, 230, 90],
+    color: [5, 30, 30],
   },
   wisp2: {
     name: 'wisp2',
@@ -44,7 +44,7 @@ module.exports = {
     walkable: true,
     zLevel: 10,
     symbol: 'o',
-    color: [0, 110, 40],
+    color: [5, 10, 10],
   },
   expl1: {
     name: 'expl1',

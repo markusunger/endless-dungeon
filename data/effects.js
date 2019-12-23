@@ -5,7 +5,6 @@
 
   duration: amount of updates to exist
   speed: ms before next animation step
-  zLevel: display level
   style: tile styles
   pixels: array of relative tiles affected over duration,
           x: relative x position
@@ -25,7 +24,6 @@ module.exports = {
   wisp: {
     duration: 6,
     speed: 170,
-    zLevel: 1,
     style: ['wisp1', 'wisp2'],
     pixels: [
       {
@@ -59,7 +57,6 @@ module.exports = {
   explosion: {
     duration: 10,
     speed: 90,
-    zLevel: 90,
     style: ['expl1', 'expl2', 'expl3'],
     pixels: [
       {

@@ -20,7 +20,7 @@ module.exports = {
     walkable: false,
     zLevel: 99,
     symbol: '#',
-    color: [230, 130, 50],
+    color: [90, 40, 20],
   },
   player: {
     name: 'player',
@@ -28,7 +28,7 @@ module.exports = {
     walkable: false,
     zLevel: 98,
     symbol: '@',
-    color: [250, 250, 250],
+    color: [200, 250, 50],
   },
   wisp1: {
     name: 'wisp1',
@@ -36,7 +36,7 @@ module.exports = {
     walkable: true,
     zLevel: 10,
     symbol: 'O',
-    color: [5, 30, 30],
+    color: [5, 30, 10],
   },
   wisp2: {
     name: 'wisp2',
@@ -44,7 +44,7 @@ module.exports = {
     walkable: true,
     zLevel: 10,
     symbol: 'o',
-    color: [5, 10, 10],
+    color: [5, 5, 5],
   },
   expl1: {
     name: 'expl1',

@@ -3,7 +3,16 @@
 /*
   data for all effect types
 
-  every effect has to end with a null state for
+  duration: amount of updates to exist
+  speed: ms before next animation step
+  zLevel: display level
+  style: tile styles
+  pixels: array of relative tiles affected over duration,
+          x: relative x position
+          y: relative y position
+          states: tile style reference for each animation step
+
+  every pixel state array has to end with a null state for
   proper map state resetting
 */
 
@@ -49,7 +58,7 @@ module.exports = {
 
   explosion: {
     duration: 10,
-    speed: 60,
+    speed: 90,
     zLevel: 90,
     style: ['expl1', 'expl2', 'expl3'],
     pixels: [

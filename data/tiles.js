@@ -1,10 +1,3 @@
-/*
-  data for all tiles
-
-  name equals the key, i don't seem to be able to come up with
-  a better solution for self-referencing. ah well, it works
-*/
-
 module.exports = {
   floor: {
     name: 'floor',
@@ -19,13 +12,6 @@ module.exports = {
     walkable: false,
     symbol: '#',
     color: [230, 130, 50],
-  },
-  player: {
-    name: 'player',
-    type: 'player',
-    walkable: false,
-    symbol: '@',
-    color: [250, 250, 250],
   },
   wisp1: {
     name: 'wisp1',

@@ -1,0 +1,1 @@
+Couldn't initialize unicorn hat! Error: ENOENT: no such file or directory, open '/dev/spidev0.0'

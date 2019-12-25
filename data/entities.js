@@ -11,9 +11,16 @@
 module.exports = {
   player: {
     name: 'player',
-    speed: 200,
+    speed: 500,
     static: false,
     animated: false,
     style: ['player'],
   },
+  enemy: {
+    name: 'enemy',
+    speed: 900,
+    static: false,
+    animated: false,
+    style: ['enemy'],
+  }
 };

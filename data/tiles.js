@@ -14,13 +14,29 @@ module.exports = {
     symbol: '.',
     color: [5, 5, 5],
   },
-  wall: {
-    name: 'wall',
+  wall1: {
+    name: 'wall1',
     type: 'wall',
     walkable: false,
     zLevel: 99,
     symbol: '#',
     color: [90, 40, 20],
+  },
+  wall2: {
+    name: 'wall2',
+    type: 'wall',
+    walkable: false,
+    zLevel: 99,
+    symbol: '#',
+    color: [80, 40, 30],
+  },
+  wall3: {
+    name: 'wall3',
+    type: 'wall',
+    walkable: false,
+    zLevel: 99,
+    symbol: '#',
+    color: [90, 50, 10],
   },
   player: {
     name: 'player',
@@ -28,7 +44,15 @@ module.exports = {
     walkable: false,
     zLevel: 98,
     symbol: '@',
-    color: [200, 250, 50],
+    color: [200, 50, 150],
+  },
+  enemy: {
+    name: 'enemy',
+    type: 'enemy',
+    walkable: false,
+    zLevel: 97,
+    symbol: '~',
+    color: [250, 0, 0],
   },
   wisp1: {
     name: 'wisp1',
@@ -44,7 +68,7 @@ module.exports = {
     walkable: true,
     zLevel: 10,
     symbol: 'o',
-    color: [5, 5, 5],
+    color: [0, 10, 5],
   },
   expl1: {
     name: 'expl1',
@@ -52,7 +76,7 @@ module.exports = {
     walkable: true,
     zLevel: 20,
     symbol: 'X',
-    color: [130, 90, 0],
+    color: [95, 5, 5],
   },
   expl2: {
     name: 'expl2',
@@ -60,7 +84,7 @@ module.exports = {
     walkable: true,
     zLevel: 20,
     symbol: 'x',
-    color: [100, 40, 10],
+    color: [60, 20, 5],
   },
   expl3: {
     name: 'expl3',
@@ -68,6 +92,6 @@ module.exports = {
     walkable: true,
     zLevel: 20,
     symbol: '_',
-    color: [80, 0, 0],
+    color: [40, 0, 5],
   },
 };

@@ -1,4 +1,5 @@
 const Uc = require('unicornhat-hd');
+const rl = require('readline-sync');
 
 let unicorn;
 try {
@@ -15,19 +16,15 @@ process.on('SIGINT', () => {
   process.exit();
 });
 
-setInterval(() => {
-  const randomColor = [
-    Math.floor(Math.random() * 255),
-    Math.floor(Math.random() * 255),
-    Math.floor(Math.random() * 255),
-  ];
+while (true) {
+  const color = rl.question('Color array: ').split(',').map(Number);
   unicorn.clear();
   unicorn.setBrightness(0.4);
   for (let i = 0; i < 16; i += 1) {
     for (let j = 0; j < 16; j += 1) {
-      unicorn.setPixel(j, i, ...randomColor);
-      console.log(randomColor);
+      unicorn.setPixel(j, i, ...color);
     }
   }
+  console.log(`Color was ${color}.`);
   unicorn.show();
-}, 1000);
+}

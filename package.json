@@ -20,6 +20,7 @@
     "dotenv": "^8.2.0",
     "scroll-controller": "git+https://git@github.com/whatsim/scrollcontroller.git",
     "terminal-kit": "^1.32.2",
+    "tinyqueue": "^2.0.3",
     "unicornhat-hd": "0.0.4"
   }
 }

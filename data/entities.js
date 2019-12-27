@@ -11,16 +11,37 @@
 module.exports = {
   player: {
     name: 'player',
-    speed: 500,
+    speed: 800,
     static: false,
     animated: false,
     style: ['player'],
   },
-  enemy: {
-    name: 'enemy',
-    speed: 900,
+  enemy1: {
+    name: 'enemy1',
+    speed: 1200,
     static: false,
     animated: false,
-    style: ['enemy'],
-  }
+    style: ['enemy1'],
+  },
+  enemy2: {
+    name: 'enemy2',
+    speed: 1200,
+    static: false,
+    animated: false,
+    style: ['enemy2'],
+  },
+  enemy3: {
+    name: 'enemy3',
+    speed: 1200,
+    static: false,
+    animated: false,
+    style: ['enemy3'],
+  },
+  firebolt: {
+    name: 'firebolt',
+    speed: 300,
+    static: false,
+    animated: true,
+    style: ['firebolt1', 'firebolt2'],
+  },
 };

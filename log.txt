@@ -1,1 +1,13 @@
 Couldn't initialize unicorn hat! Error: ENOENT: no such file or directory, open '/dev/spidev0.0'
+next step for firebolt: 8,1
+next step for enemy1: 7,12
+next step for enemy2: 7,4
+next step for enemy3: 8,3
+next step for firebolt: 7,2
+next step for firebolt: 7,3
+next step for firebolt: 7,4
+next step for firebolt: null
+next step for enemy1: 8,12
+next step for enemy2: 8,3
+next step for enemy3: 9,2
+next step for firebolt: 8,3

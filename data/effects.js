@@ -67,7 +67,7 @@ module.exports = {
       {
         x: -1,
         y: 0,
-        states: [null, 2, 2, r(1, 2), r(1, 2), r(1, 2), r(null, 2), r(null, 2), null],
+        states: [null, 2, 2, r(1, 2), r(0, 1), r(1, 2), r(null, 2), r(null, 2), null],
       },
       {
         x: 1,
@@ -77,27 +77,27 @@ module.exports = {
       {
         x: 0,
         y: -1,
-        states: [null, 2, 2, r(1, 2), r(1, 2), r(1, 2), r(null, 2), r(null, 2), null],
+        states: [null, 2, 2, r(1, 2), r(0, 1), r(1, 2), r(null, 2), r(null, 2), null],
       },
       {
         x: 0,
         y: 1,
-        states: [null, r(null, 2), r(null, 2), r(1, 2), r(1, 2), r(1, 2), r(null, 2), r(null, 2), null],
+        states: [null, r(null, 2), r(null, 2), r(1, 2), r(0, 1), r(1, 2), r(null, 2), r(null, 2), null],
       },
       {
         x: -1,
         y: -1,
-        states: [null, r(null, 2), r(null, 2), r(1, 2), r(1, 2), r(1, 2), r(null, 2), r(null, 2), null],
+        states: [null, r(null, 2), r(null, 2), r(1, 2), r(1, 2), r(0, 1), r(null, 2), r(null, 2), null],
       },
       {
         x: 1,
         y: -1,
-        states: [null, r(null, 2), r(null, 2), r(1, 2), r(1, 2), r(1, 2), r(null, 2), r(null, 2), null],
+        states: [null, r(null, 2), r(null, 2), r(0, 1), r(1, 2), r(1, 2), r(null, 2), r(null, 2), null],
       },
       {
         x: 1,
         y: -1,
-        states: [null, r(null, 2), r(null, 2), r(1, 2), r(1, 2), r(1, 2), r(null, 2), r(null, 2), null],
+        states: [null, r(null, 2), r(null, 2), r(0, 1), r(1, 2), r(1, 2), r(null, 2), r(null, 2), null],
       },
       {
         x: 1,

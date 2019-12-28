@@ -23,7 +23,7 @@ function r(...states) {
 module.exports = {
   wisp: {
     duration: 6,
-    speed: 450,
+    speed: 500,
     style: ['wisp1', 'wisp2'],
     pixels: [
       {
@@ -56,7 +56,7 @@ module.exports = {
 
   explosion: {
     duration: 10,
-    speed: 150,
+    speed: 250,
     style: ['expl1', 'expl2', 'expl3'],
     pixels: [
       {

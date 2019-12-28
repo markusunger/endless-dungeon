@@ -20,7 +20,7 @@ module.exports = {
     walkable: false,
     zLevel: 99,
     symbol: '#',
-    color: [20, 10, 5],
+    color: [50, 40, 20],
   },
   wall2: {
     name: 'wall2',
@@ -28,7 +28,7 @@ module.exports = {
     walkable: false,
     zLevel: 99,
     symbol: '#',
-    color: [30, 15, 10],
+    color: [45, 35, 25],
   },
   wall3: {
     name: 'wall3',
@@ -36,7 +36,7 @@ module.exports = {
     walkable: false,
     zLevel: 99,
     symbol: '#',
-    color: [25, 12, 7],
+    color: [60, 40, 25],
   },
   player: {
     name: 'player',

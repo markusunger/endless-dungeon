@@ -23,7 +23,7 @@ function r(...states) {
 module.exports = {
   wisp: {
     duration: 6,
-    speed: 170,
+    speed: 450,
     style: ['wisp1', 'wisp2'],
     pixels: [
       {
@@ -56,7 +56,7 @@ module.exports = {
 
   explosion: {
     duration: 10,
-    speed: 90,
+    speed: 150,
     style: ['expl1', 'expl2', 'expl3'],
     pixels: [
       {
@@ -123,6 +123,82 @@ module.exports = {
         x: 0,
         y: -2,
         states: [null, null, 2, r(1, 2), r(1, 2), r(1, 2), r(null, 2), null, null],
+      },
+    ],
+  },
+
+  iceshatter: {
+    duration: 8,
+    speed: 300,
+    style: ['shatter1', 'shatter2'],
+    pixels: [
+      {
+        x: 0,
+        y: 0,
+        states: [0, 1, 0, 0, 0, r(0, 1), 1, null],
+      },
+      {
+        x: -1,
+        y: -1,
+        states: [null, 1, 1, 1, r(null, 1), r(null, 1), null, null],
+      },
+      {
+        x: 1,
+        y: 1,
+        states: [null, 1, 1, 1, r(null, 1), r(null, 1), null, null],
+      },
+      {
+        x: 1,
+        y: -1,
+        states: [null, 1, 1, 1, r(null, 1), r(null, 1), null, null],
+      },
+      {
+        x: -1,
+        y: 1,
+        states: [null, 1, 1, 1, r(null, 1), r(null, 1), null, null],
+      },
+      {
+        x: -2,
+        y: -1,
+        states: [null, 1, 1, 1, r(null, 1), r(null, 1), null, null],
+      },
+      {
+        x: 2,
+        y: -2,
+        states: [null, 1, 1, 1, r(null, 1), r(null, 1), null, null],
+      },
+    ],
+  },
+
+  arcanestorm: {
+    duration: 8,
+    speed: 350,
+    style: ['astorm1', 'astorm2'],
+    pixels: [
+      {
+        x: 0,
+        y: 0,
+        states: [0, null, 0, null, 0, null, 0, null],
+      },
+      {
+        x: -1,
+        y: 0,
+        states: [null, 1, null, 1, null, 1, null, null],
+      },
+      {
+        x: 1,
+        y: 0,
+        states: [1, null, 1, null, 1, null, 1, null],
+      },
+      {
+        x: 0,
+        y: -1,
+        states: [null, 1, null, 1, null, 1, null, null],
+      },
+      {
+        x: 0,
+        y: 1,
+        states: [1, null, 1, null, 1, null, 1, null],
       },
     ],
   },

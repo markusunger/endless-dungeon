@@ -44,4 +44,18 @@ module.exports = {
     animated: true,
     style: ['firebolt1', 'firebolt2'],
   },
+  arcanebolt: {
+    name: 'arcanebolt',
+    speed: 250,
+    static: false,
+    animated: false,
+    style: ['arcanebolt'],
+  },
+  icebolt: {
+    name: 'icebolt',
+    speed: 350,
+    static: false,
+    animated: true,
+    style: ['icebolt1', 'icebolt2'],
+  },
 };

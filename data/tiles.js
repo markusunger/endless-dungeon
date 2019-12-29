@@ -214,4 +214,28 @@ module.exports = {
     symbol: '~',
     color: [0, 0, 100],
   },
+  nature1: {
+    name: 'nature1',
+    type: 'effect',
+    walkable: true,
+    zLevel: 20,
+    symbol: '&',
+    color: [0, 60, 0],
+  },
+  nature2: {
+    name: 'nature2',
+    type: 'effect',
+    walkable: true,
+    zLevel: 20,
+    symbol: '&',
+    color: [0, 75, 0],
+  },
+  nature3: {
+    name: 'nature3',
+    type: 'effect',
+    walkable: true,
+    zLevel: 20,
+    symbol: '&',
+    color: [0, 65, 10],
+  },
 };

@@ -58,4 +58,11 @@ module.exports = {
     animated: true,
     style: ['icebolt1', 'icebolt2'],
   },
+  water: {
+    name: 'water',
+    speed: 500,
+    static: true,
+    animated: true,
+    style: ['water1', 'water2'],
+  },
 };

@@ -51,7 +51,7 @@ module.exports = {
     type: 'enemy',
     walkable: true,
     zLevel: 97,
-    symbol: '~',
+    symbol: 'W',
     color: [150, 0, 0],
   },
   enemy2: {
@@ -59,7 +59,7 @@ module.exports = {
     type: 'enemy',
     walkable: true,
     zLevel: 97,
-    symbol: '~',
+    symbol: 'W',
     color: [170, 5, 0],
   },
   enemy3: {
@@ -67,7 +67,7 @@ module.exports = {
     type: 'enemy',
     walkable: true,
     zLevel: 97,
-    symbol: '~',
+    symbol: 'W',
     color: [100, 0, 0],
   },
   wisp1: {
@@ -197,5 +197,21 @@ module.exports = {
     zLevel: 20,
     symbol: 'v',
     color: [25, 0, 0],
+  },
+  water1: {
+    name: 'water1',
+    type: 'static',
+    walkable: false,
+    zLevel: 80,
+    symbol: '~',
+    color: [0, 0, 150],
+  },
+  water2: {
+    name: 'water2',
+    type: 'static',
+    walkable: false,
+    zLevel: 80,
+    symbol: '~',
+    color: [0, 0, 100],
   },
 };

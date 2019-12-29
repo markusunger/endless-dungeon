@@ -182,4 +182,20 @@ module.exports = {
     symbol: 'U',
     color: [140, 100, 140],
   },
+  heart1: {
+    name: 'heart1',
+    type: 'effect',
+    walkable: true,
+    zLevel: 20,
+    symbol: 'v',
+    color: [70, 0, 0],
+  },
+  heart2: {
+    name: 'heart2',
+    type: 'effect',
+    walkable: true,
+    zLevel: 20,
+    symbol: 'v',
+    color: [25, 0, 0],
+  },
 };

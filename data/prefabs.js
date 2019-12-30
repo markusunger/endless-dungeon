@@ -109,4 +109,131 @@ module.exports = {
       { type: 'tile', name: 'rock2' },
     ],
   },
+
+  library: {
+    name: 'library',
+    type: ['drunken'],
+    map: [
+      [1, 1, 1, 1, 0],
+      [1, 0, 0, 0, 1],
+      [1, 1, 1, 1, 0],
+    ],
+    lookup: [
+      null,
+      [
+        null,
+        { type: 'tile', name: 'wood1' },
+        { type: 'tile', name: 'wood2' },
+      ],
+    ],
+  },
+
+  pillars: {
+    name: 'pillars',
+    type: ['automaton', 'drunken'],
+    map: [
+      [0, 0, 0, 0, 0, 0],
+      [3, 1, 0, 1, 0, 3],
+      [3, 1, 0, 1, 0, 3],
+      [0, 0, 0, 0, 0, 0],
+    ],
+    lookup: [
+      null,
+      { type: 'tile', name: 'wall1' },
+      [
+        null,
+        { type: 'tile', name: 'wall1' },
+      ],
+      [
+        null,
+        { type: 'tile', name: 'wood1' },
+      ],
+    ],
+  },
+
+  dining: {
+    name: 'dining',
+    type: ['automaton', 'drunken'],
+    map: [
+      [0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [0, 1, 0, 1, 0, 1, 0, 1, 0],
+      [0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [0, 1, 1, 1, 1, 1, 1, 1, 0],
+      [0, 1, 1, 1, 1, 1, 1, 1, 0],
+      [0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [0, 1, 0, 1, 0, 1, 0, 1, 0],
+      [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    ],
+    lookup: [
+      null,
+      [
+        { type: 'tile', name: 'wood1' },
+        { type: 'tile', name: 'wood2' },
+      ],
+    ],
+  },
+
+  fountains: {
+    name: 'fountains',
+    type: ['automaton'],
+    map: [
+      [0, 0, 0, 0, 0, 0],
+      [0, 2, 0, 0, 2, 0],
+      [0, 1, 2, 2, 1, 0],
+      [0, 2, 0, 0, 2, 0],
+      [0, 2, 0, 0, 2, 0],
+      [0, 1, 2, 2, 1, 0],
+      [0, 2, 0, 0, 2, 0],
+      [0, 0, 0, 0, 0, 0],
+    ],
+    lookup: [
+      null,
+      { type: 'tile', name: 'wall1' },
+      [
+        null,
+        { type: 'entity', name: 'water' },
+      ],
+    ],
+  },
+
+  pond: {
+    name: 'pond',
+    type: ['automaton'],
+    map: [
+      [0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 2, 2, 0, 2, 0, 0],
+      [0, 0, 2, 1, 1, 2, 2, 0, 0],
+      [0, 0, 2, 2, 1, 1, 2, 2, 0],
+      [0, 2, 2, 1, 1, 1, 1, 2, 0],
+      [0, 2, 1, 1, 2, 1, 2, 2, 0],
+      [0, 0, 2, 1, 2, 2, 2, 0, 0],
+      [0, 0, 2, 2, 2, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    ],
+    lookup: [
+      null,
+      { type: 'entity', name: 'water' },
+      [
+        null,
+        { type: 'entity', name: 'water' },
+      ],
+    ],
+  },
+
+  well: {
+    name: 'well',
+    type: ['automaton', 'drunken'],
+    map: [
+      [0, 0, 0, 0, 0, 0],
+      [0, 1, 1, 1, 1, 0],
+      [0, 1, 2, 2, 1, 0],
+      [0, 1, 1, 1, 1, 0],
+      [0, 0, 0, 0, 0, 0],
+    ],
+    lookup: [
+      null,
+      { type: 'tile', name: 'wall1' },
+      { type: 'entity', name: 'water' },
+    ],
+  },
 };

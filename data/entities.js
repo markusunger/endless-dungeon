@@ -11,7 +11,7 @@
 module.exports = {
   player: {
     name: 'player',
-    speed: 800,
+    speed: 400,
     static: false,
     animated: false,
     style: ['player'],

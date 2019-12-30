@@ -8,13 +8,17 @@ module.exports = {
     type: ['automaton'],
     map: [
       [0, 0, 0, 0],
-      [0, 1, 1, 0],
-      [0, 1, 1, 0],
+      [0, 1, 2, 0],
+      [0, 2, 1, 0],
       [0, 0, 0, 0],
     ],
     lookup: [
       null,
       { type: 'entity', name: 'water' },
+      [
+        null,
+        { type: 'entity', name: 'water' },
+      ],
     ],
   },
 

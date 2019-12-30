@@ -67,9 +67,16 @@ module.exports = {
   },
   water: {
     name: 'water',
-    speed: 500,
+    speed: 100,
     static: true,
     animated: true,
     style: ['water1', 'water2'],
+  },
+  lava: {
+    name: 'lava',
+    speed: 150,
+    static: true,
+    animated: true,
+    style: ['lava1', 'lava2', 'lava3'],
   },
 };

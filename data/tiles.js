@@ -1,11 +1,21 @@
 /*
   data for all tiles
 
-  name equals the key, i don't seem to be able to come up with
-  a better solution for self-referencing. ah well, it works
+  - name: holds the key, a unique identifier
+  - type: the type of tile to use for identifying all styles of a specific tile
+  - walkable: a boolean denoting if a player/enemy can walk over this tile
+  - zLevel: the z-axis position of that tile, used for rendering overlaying tiles
+  - symbol: the ASCII symbolto use in the debugging console mode
+  - color: the color used on the Unicorn hat display
+
 */
 
 module.exports = {
+  /*
+  ----------------
+  basic map tiles
+  ----------------
+  */
   floor: {
     name: 'floor',
     type: 'floor',
@@ -38,6 +48,12 @@ module.exports = {
     symbol: '#',
     color: [60, 40, 25],
   },
+
+  /*
+  -------------------
+  actor entity tiles
+  -------------------
+  */
   player: {
     name: 'player',
     type: 'player',
@@ -70,6 +86,12 @@ module.exports = {
     symbol: 'W',
     color: [100, 0, 0],
   },
+
+  /*
+  -------------
+  effect tiles
+  -------------
+  */
   wisp1: {
     name: 'wisp1',
     type: 'effect',
@@ -109,46 +131,6 @@ module.exports = {
     zLevel: 20,
     symbol: '_',
     color: [100, 10, 0],
-  },
-  firebolt1: {
-    name: 'firebolt1',
-    type: 'projectile',
-    walkable: true,
-    zLevel: 70,
-    symbol: '+',
-    color: [155, 15, 0],
-  },
-  firebolt2: {
-    name: 'firebolt2',
-    type: 'projectile',
-    walkable: true,
-    zLevel: 70,
-    symbol: '+',
-    color: [155, 10, 0],
-  },
-  arcanebolt: {
-    name: 'arcanebolt',
-    type: 'projectile',
-    walkable: true,
-    zLevel: 70,
-    symbol: '*',
-    color: [70, 10, 70],
-  },
-  icebolt1: {
-    name: 'icebolt1',
-    type: 'projectile',
-    walkable: true,
-    zLevel: 70,
-    symbol: '%',
-    color: [40, 40, 80],
-  },
-  icebolt2: {
-    name: 'icebolt2',
-    type: 'projectile',
-    walkable: true,
-    zLevel: 70,
-    symbol: '%',
-    color: [20, 20, 90],
   },
   shatter1: {
     name: 'shatter1',
@@ -198,22 +180,6 @@ module.exports = {
     symbol: 'v',
     color: [25, 0, 0],
   },
-  water1: {
-    name: 'water1',
-    type: 'static',
-    walkable: false,
-    zLevel: 80,
-    symbol: '~',
-    color: [0, 0, 150],
-  },
-  water2: {
-    name: 'water2',
-    type: 'static',
-    walkable: false,
-    zLevel: 80,
-    symbol: '~',
-    color: [0, 0, 100],
-  },
   nature1: {
     name: 'nature1',
     type: 'effect',
@@ -237,5 +203,73 @@ module.exports = {
     zLevel: 20,
     symbol: '&',
     color: [0, 65, 10],
+  },
+
+  /*
+    -----------------
+    projectile tiles
+    -----------------
+  */
+  firebolt1: {
+    name: 'firebolt1',
+    type: 'projectile',
+    walkable: true,
+    zLevel: 70,
+    symbol: '+',
+    color: [155, 15, 0],
+  },
+  firebolt2: {
+    name: 'firebolt2',
+    type: 'projectile',
+    walkable: true,
+    zLevel: 70,
+    symbol: '+',
+    color: [155, 10, 0],
+  },
+  arcanebolt: {
+    name: 'arcanebolt',
+    type: 'projectile',
+    walkable: true,
+    zLevel: 70,
+    symbol: '*',
+    color: [70, 10, 70],
+  },
+  icebolt1: {
+    name: 'icebolt1',
+    type: 'projectile',
+    walkable: true,
+    zLevel: 70,
+    symbol: '%',
+    color: [40, 40, 80],
+  },
+  icebolt2: {
+    name: 'icebolt2',
+    type: 'projectile',
+    walkable: true,
+    zLevel: 70,
+    symbol: '%',
+    color: [20, 20, 90],
+  },
+
+  /*
+  ----------------------
+  prefab-specific tiles
+  ----------------------
+  */
+  water1: {
+    name: 'water1',
+    type: 'static',
+    walkable: false,
+    zLevel: 80,
+    symbol: '~',
+    color: [0, 0, 150],
+  },
+  water2: {
+    name: 'water2',
+    type: 'static',
+    walkable: false,
+    zLevel: 80,
+    symbol: '~',
+    color: [0, 0, 100],
   },
 };

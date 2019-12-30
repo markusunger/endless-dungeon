@@ -5,15 +5,16 @@
 module.exports = {
   pool: {
     name: 'pool',
+    type: ['automaton', 'drunken'],
     map: [
       [0, 0, 0, 0],
       [0, 1, 1, 0],
       [0, 1, 1, 0],
       [0, 0, 0, 0],
     ],
-    entities: [
+    lookup: [
       null,
-      'water',
+      { type: 'entity', name: 'water' },
     ],
   },
 };

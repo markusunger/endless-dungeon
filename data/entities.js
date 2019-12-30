@@ -79,4 +79,11 @@ module.exports = {
     animated: true,
     style: ['lava1', 'lava2', 'lava3'],
   },
+  gold: {
+    name: 'gold',
+    speed: 1000,
+    static: true,
+    animated: true,
+    style: ['gold1', 'gold2'],
+  },
 };
